@@ -20,6 +20,9 @@ The server will run on port 3000 by default and log a startup message.
 ### Docker
 To run this microservice from an image, you need to have Docker installed
 
+Build the image with:
+```docker build -t sit737-prac5p-calculator .```
+
 Start the service with:
 ```docker-compose up```
 
