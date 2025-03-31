@@ -21,16 +21,20 @@ The server will run on port 3000 by default and log a startup message.
 To run this microservice from an image, you need to have Docker installed
 
 - Build the image with:
-```docker build -t sit737-2025-prac5p-calculator .```
+```docker build -t sit737-2025-prac5p-calculator-1 .```
 
 - Start the service with:
 ```docker-compose up```
 
 - Verify healthcheck of the service with:
-```docker inspect --format='{{json .State.Health}}' sit737-2025-prac5p-calculator-1```
+```docker inspect --format='{{json .State.Health}}' s224021028/sit737-2025-prac5p-calculator-1```
 
 - Stop the service with:
 ```docker-compose down```
+
+- Tag and Push the image to a registry (Docker Hub) with:
+```docker tag sit737-2025-prac5p-calculator-1 s224021028/sit737-2025-prac5p-calculator-1```
+```docker push s224021028/sit737-2025-prac5p-calculator-1```
 
 ## Testing the Microservice
 To test the microservice, you can:
