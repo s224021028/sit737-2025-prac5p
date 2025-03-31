@@ -33,7 +33,7 @@ To run this microservice from an image, you need to have Docker installed
 ```docker-compose down```
 
 - Tag and Push the image to a registry (Docker Hub) with:
-```docker tag sit737-2025-prac5p-calculator-1 s224021028/sit737-2025-prac5p-calculator-1```
+```docker tag sit737-2025-prac5p-calculator-1 s224021028/sit737-2025-prac5p-calculator-1```<br><br>
 ```docker push s224021028/sit737-2025-prac5p-calculator-1```
 
 ## Testing the Microservice
